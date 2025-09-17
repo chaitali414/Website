@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZmCULaM6tU8zTtIk2+R1GxH+V+6jIW3hVb4y0fM2B9L9+Y4dH5z7N4c6p9d5e1P5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section class="header">
+        <div class="left">
+            <div class="logo_part">
+                <img class="logo_img" src="assets/images/Logo.svg" alt="">
+                <a class="logo_name" href="">ClassIQ</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="login_btn"> <a href="login.html"> Login</a></button>
+            <button class="SignUp_btn"><a href="signUp.html"> SignUp</a></button>
+        </div>
+    </section>  
+
+\
+        <section class="signup-container">
+  <h2>SignUp</h2>
+  <form class="signup-form">
+    <input type="email" placeholder="Enter Your Email" required />
+    <input type="text" placeholder="Enter Your Fullname" required />
+    <input type="password" placeholder="Enter Your Password" required />
+    <button type="submit">SignUp</button>
+  </form>
+  <p class="login-prompt">
+    Already have an account? <a href="login.html">Login</a>
+  </p>
+</section>
+   
+
+<footer class="classiq-footer" data-aos="fade-up">
+  <div class="footer-top">
+    <div class="subscribe">
+        <div class="logo_part">
+                <img class="logo_img" src="assets/images/Logo.svg" alt="">
+                <a class="logo_name" href="">ClassIQ</a>
+            </div>
+      <h3>Subscribe</h3>
+      <p>Subscribe for the latest courses, tips and updates. Join our learning community today!</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="footer-links">
+      <div class="link-group">
+        <h4>ClassIQ Business</h4>
+        <ul>
+          <li><a href="#">Teach on ClassIQ</a></li>
+          <li><a href="#">Teaching Tools</a></li>
+          <li><a href="#">ClassIQ app</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="link-group">
+        <h4>Careers</h4>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Affiliate</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2024 ClassIQ. All rights reserved.</p>
+    <div class="social-icons">
+      <span class="icon "><img src="assets/images/instagram (1).png" alt=""></span>
+      <span class="icon "><img src="assets/images/x-twitter-brands-solid-full.svg" alt=""></span>
+      <span class="icon "><img src="assets/images/linkedin-in-brands-solid-full.svg" alt=""></span>
+    </div>
+  </div>
+</footer>
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800, // animation duration
+    once: true     // animate only once
+  });
+</script>
+<script src="script.js"></script>
+</body>
+</html>
