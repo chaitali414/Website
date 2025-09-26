@@ -25,15 +25,20 @@
  
 <section class="login-container" data-aos="fade-up">
   <h2>Login</h2>
-  <form class="login-form">
-    <input type="email" placeholder="Enter Your Email" required />
-    <input type="password" placeholder="Enter Your Password" required />
-    <button type="submit">Login</button>
-  </form>
+  <form class="login-form" id="loginForm">
+  <input type="email" id="email" placeholder="Enter Your Email" required />
+  <span id="emailError" class="error-message"></span>
+
+  <input type="password" id="password" placeholder="Enter Your Password" required />
+  <span id="passwordError" class="error-message"></span>
+
+  <button type="submit">Login</button>
+</form>
   <p class="signup-prompt">
     Don’t have an account? <a href="signUp.html">SignUp</a>
   </p>
 </section>
+
  <footer class="classiq-footer">
   <div class="footer-top">
     <div class="subscribe">
@@ -84,8 +89,8 @@
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init({
-    duration: 800, // animation duration
-    once: true     // animate only once
+    duration: 800, 
+    once: true     
   });
 </script>
 <script src="script.js"></script>
